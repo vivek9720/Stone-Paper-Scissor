@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    text-align: center;
+}
+
+.img{
+    margin-top: 100px;
+    margin-left: 300px;
+    height: 200px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+.imgAll{
+    height: 180px;
+    width: 280px;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+#rock{
+    margin-left: 30px;
+    background-image: url("rock.png");
+    background-size: cover;
+    background-position: center;
+}
+#scissor{
+    margin-left: 30px;
+    margin-right: 30px;
+    background-image: url("scissors.png");
+    background-size: cover;
+    background-position: center;
+}
+#paper{
+    margin-right: 30px;
+    background-image: url("paper.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.count{
+    /* align-items: center;
+    text-align: center; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    font-size: x-large;
+}
+
+#your-count1{
+    font-size: xx-large;
+    font-weight: bold;
+}
+#com-count1{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+
+.show-winner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.winner{
+    height: 50px;
+    width: 150px;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: burlywood;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-top: 100px;
+}
